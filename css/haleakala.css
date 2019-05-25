@@ -1,0 +1,145 @@
+*, *:before, *:after { box-sizing: border-box; }
+body {
+    margin: 30px;
+    padding: 0;
+    font-family: Times;
+    font-size: 24px;
+    color: #000;
+    background: #ffffff;
+}
+.crater-body, .crater-body a {
+    color: #fff;
+}
+.crater-body nav a, .crater-body nav a:hover {
+    border-color: #fff;
+}
+/* @media(max-width: 600px) {
+    .crater-body nav a {
+        background: rgb(28, 118, 38);
+    } 
+} */
+#crater {
+    background-image: url('https://www.nps.gov/webcams-hale/HaleSummitCamCrater.jpg');
+    background-size: auto 160%;
+    /* height: 100vh; */
+    /* width: 100vw; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+h1, h2, h3, h4, p, figure, em, ul, ol, li, nav {
+    font-weight: initial;
+    font-size: initial;
+    font-style: initial;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+p {
+    margin-bottom: .5em;
+}
+header {
+    font-size: 44px;
+    line-height: 60px;
+}
+nav a {
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.selected {
+    background: yellow;
+}
+nav a:hover {
+    border: 1px dotted #000;
+}
+header, nav, section {
+    margin-bottom: 2em;
+}
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+img {
+    width: 100%;
+    max-width: 500px;
+}
+ul {
+    list-style-position: outside;
+    padding: 0;
+    margin: 0;
+    list-style-type: square;
+}
+ul li {
+    margin: 0 0 10px 0;
+    padding: 0;
+    margin-left: 21px;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.city {
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    display: inline-block;
+    margin-left: 5px;
+    border: 1.2px solid #000;
+}
+
+/* .info {
+    font-size: 18px;
+} */
+
+hr {
+    height: 20px;
+    background: rgb(215, 215, 215);
+    border: 0;
+    margin: 4em 0 4em 0;
+}
+
+.pukalani { background: rgb(247, 0, 255); }
+.keokea { background: rgb(60, 148, 35); }
+.kula { background: rgb(70, 255, 19); }
+.kihei { background: rgb(19, 220, 255); }
+.kahului { background: rgb(255, 255, 19);}
+.lahaina { background: rgb(255, 180, 19); }
+.paia { background: rgb(82, 19, 255); }
+.makawao { background: rgb(147, 147, 147); }
+.wailuku { background: rgb(250, 6, 6); }
+.haiku { background: rgb(6, 124, 250); }
+
+#key {
+    max-width: 600px;
+    border: 1.2px solid #000;
+    padding: 20px;
+}
+
+#key ul li {
+    display: inline-block;
+    width: 180px;
+    margin-left: 0;
+    /* background: grey; */
+}
+
+section a {
+    text-decoration: underline;
+}
+
+#list ul li, #key, #resources, #camera {
+    display: none;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+}

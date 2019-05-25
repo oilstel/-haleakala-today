@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title>Haleakala Today</title>
+      <meta name="description" content="A curated list of things to do on Maui.">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+      <link href="css/haleakala.css" rel="stylesheet">
+      <link rel="shortcut icon" type="image/png" href="https://www.nps.gov/webcams-hale/HaleSummitCamCrater.jpg">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:site" content="@oilstel">
+      <meta name="twitter:title" content="Haleakala Today">
+      <meta name="twitter:description" content="A curated list of things to do on Maui.">
+      <meta name="twitter:image" content="https://www.nps.gov/webcams-hale/HaleSummitCamCrater.jpg"/>
+      <meta property="og:image" content="https://www.nps.gov/webcams-hale/HaleSummitCamCrater.jpg"/>
+      <meta property="og:type" content="website"/>
+      <meta property="og:title" content="Haleakala Today"/>
+      <meta property="og:description" content="A curated list of things to do on Maui."/>
+      <meta property="og:locale" content="en_US"/>
+      <meta property="og:url" content="https://haleakala.today"/>
+      <script src="js/jquery.js"></script>
+      <script src="js/haleakala.js"></script>
+    </head>
+      
+    <body class="crater-body">
+   
+            <header>❀ Today is <span id="today"></span>. It is <span id="current-weather"></span> in Upcountry Maui. <span id="forecast-name"></span> will be <span id="forecast-weather"></span>.</header>
+
+            <nav><a id="activities">Activities</a> <a id="farmers-markets">Farmers Markets</a> <a id="farms">Farms</a> <a id="arts">Art</a> <a id="museums">Museums</a> <a id="grocery-stores">Grocery stores</a> <a id="restaurants">Restaurants</a> <a id="walking">Walking</a></nav>
+
+            <section id="list">
+                <ul>
+                    <li class="farmers-markets">Upcountry Farmers Market - 55 Kiopaa Street, Pukalani. Saturdays, 7-11 AM.<span class="city pukalani"></span></li>
+                    <li class="farmers-markets">Waipuna Farmers Market - At the intersection of Kula Hwy and Omaopio Road on the grounds of Waipuna Chapel. Wednesdays, 8–1 PM. <span class="city kula"></span></li>
+                    <li class="farms">Kula Country Farms <span class="city kula"></span></li>
+                    <li class="farms">O’o Farms <span class="city kula"></span></li>
+                    <li class="activities"><a href="https://www.aliikulalavender.com" target="_blank">Ali’i Lavender Farm</a> <span class="city kula"></span></li>
+                    <li class="activities">Kula Botanical Gardens <span class="city kula"></span></li>
+                    <li class="arts"><a href="https://www.huinoeau.com/" target="_blank">Hui No‘eau Visual Arts Center</a> <span class="city makawao"></span></li>
+                    <li class="arts"><a href="https://costgallery.com/" target="_blank">Curtis Wilson Cost Gallery</a> <span class="city kula"></span></li>
+                    <li class="arts">Keokea Gallery <span class="city keokea"></span></li>
+                    <li class="activities">Surfing Goat Nursery <span class="city kula"></span></li>
+                    <li class="activities"><a href="" target="_blank">Thompson Riding Stables</a> <span class="city kula"></span></li>
+                    <li class="activities">Coffee Tour <span class="city kula"></span></li>
+                    <li class="activities">Pineapple Tour <span class="city makawao"></span></li>
+                    <li class="walking">Thompson Road <span class="city keokea"></span></li>
+                    <li class="activities">Thompson Riding Stables <span class="city kula"></span></li>
+                    <li class="activities">Mangala Yoga Studio <span class="city makawao"></span></li>
+                    <li class="activities">Wisdom Yoga <span class="city pukalani"></span></li>
+                    <li class="museums">Makawao History Museum <span class="city makawao"></span></li>
+                    <li class="museums">Bailey House Museum <span class="city wailuku"></span></li>
+                    <li class="museums">Baldwin Home Museum <span class="city lahaina"></span></li>
+                    <li class="grocery-stores">Morihara Store <span class="city kula"></span></li>
+                    <li class="grocery-stores">Pukalani Superette <span class="city pukalani"></span></li>
+                    <li class="grocery-stores">Foodland <span class="city pukalani"></span><span class="city kihei"></span><span class="city lahaina"></span></li>
+                    <li class="grocery-stores">Mana Foods <span class="city paia"></span></li>
+                    <li class="restaurants">Grandma’s Coffee House <span class="city keokea"></span></li>
+                    <li class="restaurants">La Provence <span class="city kula"></span></li>
+                    <li class="restaurants">Kula Bistro <span class="city pukalani"></span><span class="city kihei"></span></li>
+                    <li class="restaurants">Habibi on Maui <span class="city makawao"></span></li>
+                    <li class="restaurants">Nuka <span class="city haiku"></span></li>
+                </ul>
+            </section>
+
+            <section id="key">
+                <h2><b>Cities</b></h2>
+
+                <ul>
+                    <li>Kula <span class="city kula"></span></li>
+                    <li>Keokea <span class="city keokea"></span></li>
+                    <li>Makawao <span class="city makawao"></span></li>
+                    <li>Haiku <span class="city haiku"></span></li>
+                    <li>Paia <span class="city paia"></span></li>
+                    <li>Pukalani <span class="city pukalani"></span></li>
+                    <li>Kahului <span class="city kahului"></span></li>
+                    <li>Wailuku <span class="city wailuku"></span></li>
+                    <li>Kihei <span class="city kihei"></span></li>
+                    <li>Lahaina <span class="city lahaina"></span></li>
+                </ul>
+            </section>
+
+            <section id="resources">
+                <h2><b>Resources</b></h2>
+
+                <ul>
+                    <li><a href="https://www.windy.com/?20.786,-156.332,11" target="_blank">Island weather</a></li>
+                    <li><a href="https://www.weather.gov/hfo/watchwarn">Maui County advisories</a></li>
+                </ul>
+            </section>
+
+            <section id="camera">
+                <p><a href="https://www.nps.gov/customcf/webcam/dsp_webcam_image.cfm?id=81B460ED-1DD8-B71B-0BE7C3DA0A4CD7D1" target="_blank"><img src="https://www.nps.gov/webcams-hale/HaleSummitCamCrater.jpg" /></a></p>
+                <p>The current view from Haleakala Crater.</p>
+            </section>
+
+            <br />
+
+            <section id="footer">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=elliottcost@gmail.com&su=Maui website&body=Hey, here's a list of things to do on Maui: https://haleakala.today" target="_blank">Email this page to a friend</a>. ✉
+                
+                <!-- <br /><br /><i>This page is brought to you by <a href="" target="_blank">The Curtis Wilson Cost Gallery</i></a>. -->
+            </section>
+
+            <div id="crater"></div>
+      
+    </body>
+</html>
