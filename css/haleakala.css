@@ -30,6 +30,16 @@ body {
     right: 0;
     z-index: -1;
 }
+#flower {
+    background-image: url('../images/flower-white.svg');
+    background-size: 100% 100%;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+}
+.flower-black {
+    background-image: url('../images/flower-black.svg') !important;
+}
 h1, h2, h3, h4, p, figure, em, ul, ol, li, nav {
     font-weight: initial;
     font-size: initial;
