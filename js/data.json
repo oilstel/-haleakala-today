@@ -295,5 +295,16 @@
         "name": "Grandma’s Coffee House",
         "cities": ["Keokea"],
         "category": "restaurants"
+    },
+    {
+        "name": "Mangala Yoga Studio",
+        "cities": ["Makawao"],
+        "category": "activities"
+    },
+    {
+        "name": "Wisdom Yoga",
+        "url": "http://www.wisdomflowyoga.com/",
+        "cities": ["Pukalani"],
+        "category": "activities"
     }
 ]
