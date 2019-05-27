@@ -7,6 +7,9 @@ body {
     color: #000;
     background: #ffffff;
 }
+.crater-body {
+    background: rgb(36, 111, 177);
+}
 .crater-body, .crater-body a {
     color: #fff;
 }
@@ -127,6 +130,12 @@ hr {
 .makawao { background: rgb(147, 147, 147); }
 .wailuku { background: rgb(250, 6, 6); }
 .haiku { background: rgb(6, 124, 250); }
+.hana { background: rgb(180, 174, 255); }
+.napili { background: rgb(100, 141, 186); }
+.kaanapali { background: rgb(165, 135, 56); }
+.wailea { background: rgb(168, 200, 255); }
+.ulupalakua { background: rgb(132, 150, 41); }
+.crater { background-image: url('https://www.nps.gov/webcams-hale/HaleSummitCamCrater.jpg'); background-size: 100%; }
 
 #key {
     max-width: 600px;

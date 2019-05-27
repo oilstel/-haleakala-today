@@ -20,6 +20,34 @@ document.addEventListener('DOMContentLoaded', function() {
         })
     .catch(error => console.error(error))
 
+    // Data
+    fetch('./js/data.json')
+    .then(response => response.json())
+    .then(data => {
+        console.log(data);
+
+        var first = data[0].name;
+
+        data.map((item) => {
+
+            // function cities(){
+            //     item.cities.map((city) => {
+            //     console.log(city);
+            //     return `<span class="city ${city}"></span>`;
+            //     });
+            //     console.log('hi');
+            // };
+
+
+            $('#list-items').append(`
+                <li class="${item.category}">${item.url ? `<a href="${item.url}" target="_blank">` : ``}${item.name}${item.url ? `</a>` : ``} ${item.cities.map(city => `<span class="city ${city.toLowerCase()}"></span>`).join('')} ${item.description ? `<br /><i>${item.description}</i>` : `` }</li>
+            `);
+
+        });
+
+    })
+    .catch(error => console.error(error))
+
     // Get current date
     var today = new Date();
     var dd = String(today.getDate()).padStart(2, '0');

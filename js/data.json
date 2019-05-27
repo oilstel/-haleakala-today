@@ -1,0 +1,299 @@
+[
+    {
+        "name": "Upcountry Farmers Market",
+        "description": "55 Kiopaa Street, Pukalani. Saturdays, 7-11 AM.",
+        "url": "",
+        "cities": ["Pukalani"],
+        "category": "farmers-markets"
+    },
+    {
+        "name": "Waipuna Farmers Market",
+        "description": "At the intersection of Kula Hwy and Omaopio Road on the grounds of Waipuna Chapel. Wednesdays, 8–1 PM.",
+        "url": "",
+        "cities": ["Kula"],
+        "category": "farmers-markets"
+    },
+    {
+        "name": "Kula Country Farms",
+        "url": "",
+        "cities": ["Kula"],
+        "category": "farms"
+    },
+    {
+        "name": "Hike Maui",
+        "url": "http://www.hikemaui.com",
+        "cities": ["Crater", "Ulupalakua", "Hana"],
+        "category": "hiking"
+    },
+    {
+        "name": "Sierra Club",
+        "url": "http://mauisierraclub.org/hikes-service-programs/",
+        "cities": ["Crater", "Ulupalakua", "Hana"],
+        "category": "hiking"
+    },
+    {
+        "name": "O’o Farms",
+        "url": "http://oofarm.mybigcommerce.com/",
+        "cities": ["Kula"],
+        "category": "farms"
+    },
+    {
+        "name": "Ali’i Lavender Farm",
+        "url": "https://www.aliikulalavender.com",
+        "cities": ["Kula"],
+        "category": "farms"
+    },
+    {
+        "name": "Kula Botanical Gardens",
+        "url": "http://www.kulabotanicalgarden.com",
+        "cities": ["Kula"],
+        "category": "activities"
+    },
+    {
+        "name": "Hui No‘eau Visual Arts Center",
+        "url": "https://www.huinoeau.com/",
+        "cities": ["Makawao"],
+        "category": "arts"
+    },
+    {
+        "name": "Curtis Wilson Cost Gallery",
+        "url": "https://costgallery.com",
+        "cities": ["Kula"],
+        "category": "arts"
+    },
+    {
+        "name": "Keokea Gallery",
+        "url": "",
+        "cities": ["Keokea"],
+        "category": "arts"
+    },
+    {
+        "name": "Surfing Goat Nursery",
+        "url": "https://www.surfinggoatdairy.com/",
+        "cities": ["Kula"],
+        "category": "activities"
+    },
+    {
+        "name": "Kula Lodge",
+        "url": "",
+        "cities": ["Kula"],
+        "category": "restaurants"
+    },
+    {
+        "name": "Mediterranean Girl",
+        "url": "",
+        "cities": ["Haiku"],
+        "category": "restaurants"
+    },
+    {
+        "name": "Cafe Mambo",
+        "url": "",
+        "cities": ["Paia"],
+        "category": "restaurants"
+    },
+    {
+        "name": "Nuka",
+        "url": "",
+        "cities": ["Haiku"],
+        "category": "restaurants"
+    },
+    {
+        "name": "Tin Roof Maui",
+        "url": "",
+        "cities": ["Haiku"],
+        "category": "restaurants"
+    },
+    {
+        "name": "Waikapu On 30",
+        "url": "",
+        "cities": ["Wailuku"],
+        "category": "restaurants"
+    },
+    {
+        "name": "Poi by the Pound",
+        "url": "",
+        "cities": ["Kahului"],
+        "category": "restaurants"
+    },
+    {
+        "name": "Mediterranean Grill",
+        "url": "",
+        "cities": ["Haiku"],
+        "category": "restaurants"
+    },
+    {
+        "name": "Haleakala for Sunrise or Sunset",
+        "url": "",
+        "cities": ["crater"],
+        "category": "activities"
+    },
+    {
+        "name": "Polipoli Springs",
+        "description": "There are great hiking trails up there, but you will need an off-road vehicle to get there, as it is a dirt, unpaved road.",
+        "url": "http://dlnr.hawaii.gov/dsp/parks/maui/polipoli-spring-state-recreation-area/",
+        "cities": ["Kula"],
+        "category": "hiking"
+    },
+    {
+        "name": "Ulupalakua Vineyard",
+        "url": "",
+        "cities": ["Kula"],
+        "category": "farms"
+    },
+    {
+        "name": "Makawao History Museum",
+        "url": "https://makawaomuseum.org/",
+        "cities": ["Makawao"],
+        "category": "museums"
+    },
+    {
+        "name": "Bailey House Museum",
+        "url": "https://www.mauimuseum.org/",
+        "cities": ["Wailuku"],
+        "category": "museums"
+    },
+    {
+        "name": "Baldwin Home Museum",
+        "url": "http://lahainarestoration.org/baldwin-home-museum/",
+        "cities": ["Wailuku"],
+        "category": "museums"
+    },
+    {
+        "name": "Pineapple Tour",
+        "url": "https://mauipineappletour.com",
+        "cities": ["Makawao"],
+        "category": "activities"
+    },
+    {
+        "name": "Thompson Road",
+        "description": "This 3 mile round trip walk is a must if you like walking. Stop by Grandma’s Coffee House before or after.",
+        "url": "",
+        "cities": ["Keokea"],
+        "category": "hiking"
+    },
+    {
+        "name": "Morihara Store",
+        "url": "",
+        "cities": ["Kula"],
+        "category": "grocery-stores"
+    },
+    {
+        "name": "Pukalani Superette",
+        "url": "",
+        "cities": ["Pukalani"],
+        "category": "grocery-stores"
+    },
+    {
+        "name": "Foodland",
+        "url": "",
+        "cities": ["Pukalani", "Kihei", "Lahaina"],
+        "category": "grocery-stores"
+    },
+    {
+        "name": "Mana Foods",
+        "url": "",
+        "cities": ["Paia"],
+        "category": "grocery-stores"
+    },
+    {
+        "name": "Ho’okipa Beach",
+        "description": "A famous surfing spot and great place to watch turtles at sunset.",
+        "url": "",
+        "cities": ["Paia"],
+        "category": "beaches"
+    },
+    {
+        "name": "Baldwin Beach",
+        "description": "Picnic area and restrooms.",
+        "url": "",
+        "cities": ["Paia"],
+        "category": "beaches"
+    },
+    {
+        "name": "Charley Young Beach",
+        "description": "Sunbathing, tide pools, turtle sightings, restrooms and showers.",
+        "url": "",
+        "cities": ["Kihei"],
+        "category": "beaches"
+    },
+    {
+        "name": "Keawakapu Beach Park",
+        "description": "Swimming, sunbathing, body boarding, no lifeguard, no picnic area.",
+        "url": "",
+        "cities": ["Kihei"],
+        "category": "beaches"
+    },
+    {
+        "name": "Makena Beach (Big Beach)",
+        "description": "Scenic beach, be careful when the shore break is big, picnic tables and food truck.",
+        "url": "",
+        "cities": ["Wailea"],
+        "category": "beaches"
+    },
+    {
+        "name": "Red Sands Beach",
+        "description": "A hike to get there along a slippery and rugged trail.",
+        "url": "",
+        "cities": ["Hana"],
+        "category": "beaches"
+    },
+    {
+        "name": "Hana Bay Beach Park",
+        "description": "Picnic area and restrooms.",
+        "url": "",
+        "cities": ["Hana"],
+        "category": "beaches"
+    },
+    {
+        "name": "Koki Beach",
+        "description": "Locals like to frequent this beach, not safe for swimming.",
+        "url": "",
+        "cities": ["Hana"],
+        "category": "beaches"
+    },
+    {
+        "name": "Wai’anapanapa State Park",
+        "description": "Black sand beach with fresh water caves.",
+        "url": "",
+        "cities": ["Hana"],
+        "category": "beaches"
+    },
+    {
+        "name": "D.T. Fleming Beach",
+        "description": "Sandy public beach, barbecues, picnic area.",
+        "url": "",
+        "cities": ["Lahaina"],
+        "category": "beaches"
+    },
+    {
+        "name": "Napili Bay Beach",
+        "description": "Great place to snorkel when it is calm, great place to spot turtles and eels.",
+        "url": "",
+        "cities": ["Napili"],
+        "category": "beaches"
+    },
+    {
+        "name": "Ka’anapali Beach",
+        "description": "Resorts, beach walk, swimming, shopping and eateries.",
+        "url": "",
+        "cities": ["Kaanapali"],
+        "category": "beaches"
+    },
+    {
+        "name": "Thompson Riding Stables",
+        "url": "http://www.thompsonranchmaui.com",
+        "cities": ["Kaanapali"],
+        "category": "activities"
+    },
+    {
+        "name": "Ulupalakua Vineyards",
+        "url": "https://mauiwine.com",
+        "cities": ["Ulupalakua"],
+        "category": "activities"
+    },
+    {
+        "name": "Grandma’s Coffee House",
+        "cities": ["Keokea"],
+        "category": "restaurants"
+    }
+]
