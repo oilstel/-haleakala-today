@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Get current date
     var today = new Date();
-    var dd = String(today.getDate()).padStart(2, '0');
+    var dd = String(today.getDate());
     var yyyy = today.getFullYear();
     var months    = ['January','February','March','April','May','June','July','August','September','October','November','December'];
     var thisMonth = months[today.getMonth()]; // getMonth method returns the month of the date (0-January :: 11-December)
