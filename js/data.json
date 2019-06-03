@@ -1,5 +1,26 @@
 [
     {
+        "name": "Haleakalā National Park",
+        "description": "",
+        "url": "https://www.nps.gov/hale/index.htm",
+        "cities": ["Crater"],
+        "category": "hiking"
+    },
+    {
+        "name": "Makawao Forest Reserve",
+        "description": "",
+        "url": "",
+        "cities": ["Makawao"],
+        "category": "hiking"
+    },
+    {
+        "name": "Lahaina Pali Trail",
+        "description": "",
+        "url": "http://mauiguidebook.com/adventures/lahaina-pali-trail/",
+        "cities": ["Lahaina"],
+        "category": "hiking"
+    },
+    {
         "name": "Upcountry Farmers Market",
         "description": "55 Kiopaa Street, Pukalani. Saturdays, 7-11 AM.",
         "url": "",
@@ -231,8 +252,8 @@
         "category": "beaches"
     },
     {
-        "name": "Red Sands Beach",
-        "description": "A hike to get there along a slippery and rugged trail.",
+        "name": "Hamoa Beach",
+        "description": "",
         "url": "",
         "cities": ["Hana"],
         "category": "beaches"
