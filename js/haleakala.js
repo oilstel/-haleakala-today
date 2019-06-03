@@ -75,6 +75,8 @@ document.addEventListener('DOMContentLoaded', function() {
         $('body').removeClass('crater-body');
         $('#crater').hide();
         $('#flower').addClass('flower-black');
+
+        $('body').css('text-shadow', 'none');
     });
 
     // Put footer at the bottom if it's a short page

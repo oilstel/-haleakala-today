@@ -6,6 +6,7 @@ body {
     font-size: 24px;
     color: #000;
     background: #ffffff;
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.4);
 }
 .crater-body {
     background: rgb(36, 111, 177);
@@ -23,6 +24,7 @@ body {
 } */
 #crater {
     background-image: url('https://www.nps.gov/webcams-hale/HaleSummitCamCrater.jpg');
+    /* background: #fff; */
     background-size: auto 160%;
     /* height: 100vh; */
     /* width: 100vw; */
